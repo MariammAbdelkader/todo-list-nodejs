@@ -1,1 +1,8 @@
-node_modules/*.pem
+# Ignore environment variables
+.env
+
+# Ignore node modules
+node_modules/
+
+# Ignore any certificates
+*.pem
